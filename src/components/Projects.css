@@ -1,0 +1,88 @@
+/* Projects Section */
+.projects-container {
+    margin-left: 260px; /* Align with navbar */
+    padding: 50px;
+    background:  #B6CBC6; /* Match your portfolio color */
+    color:  #FEFAE0; /* Dark text for contrast */
+    min-height: 100vh;
+    width: calc(100% - 220px); /* Prevents overflow */
+    transition: margin-left 0.3s ease-in-out;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Heading */
+  .projects-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:  #f8f9fb; /* Dark green */
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+  
+  /* Timeline Container */
+  .projects-timeline {
+    position: relative;
+    max-width: 900px;
+  }
+  
+  /* Project Card */
+  .project-card {
+    background:  #84a59d; /* Deep green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    color:  #f8f9fb;
+    width: 90%;
+    position: relative;
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Alternating Card Positions */
+  .project-card.left {
+    align-self: flex-start;
+    text-align: left;
+  }
+  
+  .project-card.right {
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  /* Project Title */
+  .project-card h3 {
+    font-size: 1.5rem;
+    color:#f8f9fb;
+    margin-bottom: 10px;
+  }
+  
+  /* Project Description */
+  .project-card p {
+    font-size: 1rem;
+    color: #f8f9fb;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Tech Stack */
+  .tech-stack {
+    font-size: 0.9rem;
+    color: #f8f9fb;
+  }
+  
+  
+  /* Hover Effect */
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  .project-link:hover {
+    background: #dda15e;
+    color: #283618;
+  }
+  

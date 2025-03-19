@@ -1,0 +1,86 @@
+/* Skills.css */
+
+/* Section Container */
+.skills-container {
+  margin-left: 260px; /* Adjust for navbar */
+  padding: 50px;
+  background:  #B6CBC6; /* Dark background */
+  color: #FEFAE0;
+  min-height: 100vh;
+  width: calc(100% - 220px); /* Prevents overflow */
+  transition: margin-left 0.3s ease-in-out;
+  box-sizing: border-box; /* Prevents width from exceeding 100% */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  display: flex;
+  flex-direction: column; /* Ensures proper stacking */
+  align-items: center; /* Centers content */
+  }
+  
+  /* Heading */
+  .skills-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8f9fb; /* Light Color */
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+  
+  /* Two-column Layout */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Dynamic column width */
+    gap: 20px; /* Spacing between boxes */
+    width: 100%; /* Ensure grid does not exceed container */
+}
+
+  
+  /* Individual Column */
+  .skills-column {
+    flex: 1;
+  }
+  
+  /* Skill Item */
+  .skill-item {
+    background: #84a59d ; /* Slight contrast */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: left;
+    width: 100%; /* Ensure box fits inside container */
+    max-width: 500px; /* Prevents excessive stretching */
+    box-sizing: border-box; /* Prevents padding from increasing width */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+
+  .skill-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skill-item span {
+    font-size: 24px;
+    margin-right: 15px;
+    /* color: #BC6C25; */
+    margin-bottom: 10px; 
+  }
+  
+  .skill-item strong {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #f8f9fb;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+  
+  .skill-item p {
+    text-align: left;
+    color: #f8f9fb;
+    font-size: 1rem;
+    margin-top: 6px;
+    margin-left: 4px;
+
+  }
+  

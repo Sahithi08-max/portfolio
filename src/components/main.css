@@ -1,0 +1,11 @@
+.main-content {
+    margin-left: 270px; /* Adjusted for better alignment with navbar */
+    width: calc(100% - 270px); /* Matches skills & experience sections */
+    min-height: 100vh; /* Ensures full-page height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1E3A5F; /* Dark background consistency */
+    transition: margin-left 0.3s ease-in-out;
+}

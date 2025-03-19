@@ -1,0 +1,86 @@
+/* Contact Section */
+.contact-container {
+  margin-left: 260px; /* Adjust for navbar */
+  width: calc(100% - 250px);
+  background: #f8f9fb;
+  color: #84a59d; /* Soft beige text */
+  min-height: 23vh; /* Shorter height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+/* Contact Heading */
+.contact-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Contact Grid */
+.contact-grid {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  text-align: center;
+}
+
+/* Contact Item */
+.contact-item {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.contact-item p {
+  margin: 2px 0; /* Reduce top and bottom margin */
+  padding: 0;
+}
+
+/* Contact Icons */
+.contact-item .contact-icon {
+  font-size: 2.5rem;
+  color: #84a59d;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Icon Hover Effect */
+.contact-item:hover .contact-icon{
+  
+  transform: scale(1.2);
+}
+
+/* Social Media Links */
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+
+}
+
+/* Social Media Icons */
+.social-links a {
+  font-size: 3.2rem;
+  color: #84a59d;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom:0px;
+}
+
+.social-links a:hover {
+  /* transform: rotate(360deg); */
+  transform: scale(1.2);
+  color: #EAE0D5;
+}
+
+/* Footer */
+.footer {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #84a59d;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}

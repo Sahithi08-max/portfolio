@@ -1,0 +1,112 @@
+/* Experience Section */
+.experience-container {
+    margin-left: 260px; /* Align with navbar */
+    padding: 50px;
+     background: #cba177;
+    color: #84a59d;
+    min-height: 100vh;
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Title */
+.experience-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8f9fb;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Experience List */
+.experience-list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Experience Card */
+.experience-card {
+    background: #f8f9fb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    border-left: 6px solid #EFD9C4; /* Accent color */
+}
+
+/* Hover Effect */
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Job Role */
+.experience-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #84a59d;
+    margin-bottom: 3px;
+}
+
+/* Company Name */
+.experience-card .company {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #84a59d;
+}
+
+/* Duration */
+.experience-card .duration {
+    font-size: 1rem;
+    color: #84a59d;
+    margin-bottom: 10px;
+}
+
+/* Description List */
+.experience-card ul {
+    list-style-type: none;  /* Remove default bullet points */
+    padding-left: 0;        /* Remove extra padding */
+    margin-left: 0;         /* Align with left */
+    text-align: left;       /* Ensure text starts from left */
+    color: #84a59d;
+}
+
+.experience-card ul li {
+    font-size: 1rem;
+    color: #84a59d;
+    margin-bottom: 5px;
+    padding-left: 20px; /* Space for bullet */
+    text-align: left; /* Force text alignment */
+    position: relative; /* Allows bullet positioning */
+}
+
+/* Custom Bullet for Better Spacing */
+.experience-card ul li::before {
+    content: "▪"; /* Custom bullet */
+    color: #84a59d;; /* Light beige bullet */
+    font-size: 1rem;
+    position: absolute;
+    left: 0; /* Position to the left */
+    top: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .experience-container {
+        margin-left: 0;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .experience-list {
+        width: 100%;
+    }
+}

@@ -1,0 +1,77 @@
+/* About.css */
+
+/* Main About Section */
+.about-container {
+    display: flex;
+    align-items: left;
+    width: calc(100% - 220px);
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 50px;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 260px; /* Adjusting for the left sidebar */
+    background:   #f8f9fb; /* Background color */
+    box-sizing: border-box; /* Prevents padding from increasing width */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    margin-top: 0%;
+  }
+  
+  /* Left Side - Text */
+ 
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    color: #84a59d; /* Heading color */
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #84a59d;
+    text-align: justify;
+    
+    max-width: 600px; /* Restricting width for better readability */
+  }
+  .resume-button{
+  background-color: #84a59d;
+  color: #f8f9fb;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none; /* Remove border */
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  }
+  .resume-button:focus,
+.resume-button:active {
+  outline: none !important;
+  border: none !important;
+}
+  .resume-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+  }
+  /* Right Side - Image */
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image img {
+    width: 80%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
